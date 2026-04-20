@@ -1,0 +1,103 @@
+.waitlist-container {
+  margin-top: 2rem;
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.waitlist-container h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--color-navy);
+  text-align: center;
+}
+
+.role-selector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.role-selector label {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.role-selector label input {
+  display: none;
+}
+
+.role-selector label.active {
+  background: var(--color-navy, #0B1B3D);
+  border-color: var(--color-navy, #0B1B3D);
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: var(--color-blue);
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.waitlist-success {
+  margin-top: 2rem;
+  background: var(--color-green-100);
+  padding: 2rem;
+  border-radius: 12px;
+  color: var(--color-green-900);
+  text-align: center;
+}
+
+.waitlist-success h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.waitlist-success p {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .role-selector {
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group button {
+    width: 100%;
+  }
+}

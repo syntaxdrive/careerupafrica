@@ -1,0 +1,206 @@
+/* =====================================================
+   MATCHING COMPONENTS STYLES
+   ===================================================== */
+
+.talent-card,
+.founder-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.talent-card:hover,
+.founder-card:hover {
+  border-color: #1e3a8a;
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
+  transform: translateY(-2px);
+}
+
+.talent-card.selected,
+.founder-card.selected {
+  border-color: #f97316;
+  background: #fff7ed;
+  box-shadow: 0 4px 16px rgba(249, 115, 22, 0.2);
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.card-header h4 {
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin: 0;
+  flex: 1;
+}
+
+.cohort-badge {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.match-count-badge {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Company Info */
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.company-name {
+  font-weight: 600;
+  color: #1e3a8a;
+  font-size: 1rem;
+}
+
+.industry-tag {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+/* Card Bio */
+.card-bio {
+  color: #64748b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Skills */
+.card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: #e0e7ff;
+  color: #4338ca;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.skill-tag.more {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+/* Help Needed */
+.help-needed {
+  background: #fef3c7;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.help-needed .label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #92400e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.help-text {
+  color: #78350f;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Card Footer */
+.card-footer {
+  padding-top: 0.75rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.availability {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.availability .label {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.availability .value {
+  font-weight: 600;
+  color: #1e3a8a;
+  font-size: 0.9rem;
+}
+
+/* Selected Indicator */
+.selected-indicator {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #f97316;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .talent-card,
+  .founder-card {
+    padding: 1rem;
+  }
+
+  .card-header h4 {
+    font-size: 1rem;
+  }
+
+  .selected-indicator {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+}

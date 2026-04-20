@@ -1,0 +1,161 @@
+/* Talent Application Page Styles */
+.talent-application-page {
+  min-height: 100vh;
+  background: #1e3a8a;
+  padding: 2rem 1rem;
+}
+
+.application-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.application-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.application-header p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* Progress Bar */
+.progress-container {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #f97316;
+  transition: width 0.3s ease;
+  border-radius: 999px;
+}
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.progress-steps span.active {
+  color: white;
+  font-weight: 600;
+}
+
+/* Main Content */
+.application-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Completion Screen */
+.completion-screen {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.completion-icon {
+  width: 80px;
+  height: 80px;
+  background: #10b981;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 1.5rem;
+}
+
+.completion-screen h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.completion-screen p {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.next-steps {
+  background: #f1f5f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.next-steps strong {
+  color: #1e3a8a;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #1e3a8a;
+  color: white;
+  padding: 0.875rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+.btn-primary:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .talent-application-page {
+    padding: 1rem 0.5rem;
+  }
+
+  .application-header h1 {
+    font-size: 2rem;
+  }
+
+  .application-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .progress-steps {
+    font-size: 0.8rem;
+  }
+}

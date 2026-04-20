@@ -1,0 +1,48 @@
+.what-is-wep-section {
+  padding: 5rem 2rem;
+  background-color: var(--color-bg, #ffffff);
+  text-align: center;
+}
+
+.wep-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--color-bg-tertiary, #f1f5f9);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--color-border, #e2e8f0);
+}
+
+.what-is-wep-section .section-title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 800;
+  color: var(--color-navy, #0f172a);
+  margin-bottom: 1.5rem;
+}
+
+.wep-text {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  color: var(--color-slate-700, #334155);
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.wep-btn {
+  font-size: 1.125rem;
+  padding: 1rem 3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  background: var(--color-orange, #f97316);
+  color: white;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.wep-btn:hover {
+  background: #ea580c;
+  transform: translateY(-2px);
+}
