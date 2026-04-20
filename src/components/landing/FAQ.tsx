@@ -10,7 +10,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "Do I need prior work experience to apply?",
-    answer: "No. You only need proof of learning — a course, certification, or demonstrable skill."
+    answer: "No. You only need proof of learning: a course, certification, or demonstrable skill."
   },
   {
     question: "Is the placement paid?",
@@ -22,7 +22,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Who can apply?",
-    answer: "Anyone — fresh graduates, late starters, career switchers, people with disabilities. Age is not a barrier."
+    answer: "Anyone: fresh graduates, late starters, career switchers, people with disabilities. Age is not a barrier."
   },
   {
     question: "What do companies get?",

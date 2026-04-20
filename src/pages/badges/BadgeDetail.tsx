@@ -201,7 +201,7 @@ export default function BadgeDetail() {
               <h2>Validator's Notes</h2>
               <p className="notes-text">{badge.validation_notes}</p>
               <div className="notes-signature">
-                — {badge.validator_name}
+                 - {badge.validator_name}
               </div>
             </div>
           )}

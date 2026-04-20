@@ -41,6 +41,9 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} CareerUp Africa. All rights reserved.</p>
+          <p className="footer-developer">
+            Contact Developer: <a href="mailto:quakestartup@gmail.com">quakestartup@gmail.com</a>
+          </p>
         </div>
       </div>
     </footer>

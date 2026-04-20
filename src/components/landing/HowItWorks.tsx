@@ -6,7 +6,7 @@ const steps = [
   {
     icon: UserCheck,
     title: 'Sign Up',
-    desc: 'Show proof of learning — a course, certification, or skill.',
+    desc: 'Show proof of learning: a course, certification, or skill.',
     stepLabel: 'Step 1'
   },
   {

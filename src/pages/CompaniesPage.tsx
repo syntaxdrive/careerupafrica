@@ -14,7 +14,7 @@ export default function CompaniesPage() {
         <div className="container text-center">
           <h1 className="hero-title">Stop Waiting for Experienced Hires. Build Them.</h1>
           <p className="hero-subtext">
-            CareerUp Africa gives you access to skilled, pre-vetted emerging talent — ready to contribute to real business tasks from day one. No hiring risk. No long-term commitment. Just results.
+            CareerUp Africa gives you access to skilled, pre-vetted emerging talent ready to contribute to real business tasks from day one. No hiring risk. No long-term commitment. Just results.
           </p>
           <a
             href="https://forms.gle/VjSNd1pm5vgrtuoL8"
@@ -33,7 +33,7 @@ export default function CompaniesPage() {
           <div className="container text-center">
             <h2 className="section-title">The talent you need already exists. They just haven't had their first shot.</h2>
             <p className="intro-text">
-              Across Africa, thousands of skilled young professionals are trained, motivated, and ready to work — but locked out of the job market because no one will give them their first opportunity. CareerUp Africa changes that. We identify, vet, and match these talents directly to your business needs through structured Work Experience Placements.
+              Across Africa, thousands of skilled young professionals are trained, motivated, and ready to work but locked out of the job market because no one will give them their first opportunity. CareerUp Africa changes that. We identify, vet, and match these talents directly to your business needs through structured Work Experience Placements.
             </p>
           </div>
         </section>
@@ -143,7 +143,7 @@ export default function CompaniesPage() {
           <div className="container text-center">
             <h2>Pilot Phase</h2>
             <p>
-              We are currently in our pilot phase. Companies joining now get priority matching, dedicated onboarding support, and <strong>zero platform fees</strong> — forever locked in as founding partners.
+              We are currently in our pilot phase. Companies joining now get priority matching, dedicated onboarding support, and <strong>zero platform fees</strong> forever locked in as founding partners.
             </p>
             <div id="company-form-section" style={{ marginTop: '3rem' }}>
               <a 

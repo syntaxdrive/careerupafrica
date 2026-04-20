@@ -14,7 +14,7 @@ export default function HRPage() {
         <div className="container text-center">
           <h1 className="hero-title">You've Seen the Gap. Now Help Us Close It.</h1>
           <p className="hero-subtext">
-            As an HR professional or industry expert, you know exactly how broken the entry-level hiring system is in Africa. CareerUp Africa is building the fix — and we need people like you at the centre of it.
+            As an HR professional or industry expert, you know exactly how broken the entry-level hiring system is in Africa. CareerUp Africa is building the fix and we need people like you at the centre of it.
           </p>
           <a
             href="https://forms.gle/W7LkriAMfSfJL9VDA"
@@ -33,7 +33,7 @@ export default function HRPage() {
           <div className="container text-center">
             <h2 className="section-title">The hiring pipeline is broken. You can help rebuild it.</h2>
             <p className="intro-text">
-              Every year, thousands of skilled graduates across Africa are turned away from opportunities they are qualified for — simply because they lack formal work experience. As HR professionals and industry leaders, you sit at the exact point where this problem is most visible and most fixable. CareerUp Africa is creating a structured pathway from learning to employment, and we're inviting experienced professionals to be part of the solution.
+              Every year, thousands of skilled graduates across Africa are turned away from opportunities they are qualified for simply because they lack formal work experience. As HR professionals and industry leaders, you sit at the exact point where this problem is most visible and most fixable. CareerUp Africa is creating a structured pathway from learning to employment, and we're inviting experienced professionals to be part of the solution.
             </p>
           </div>
         </section>
@@ -48,12 +48,12 @@ export default function HRPage() {
             <div className="value-card">
               <div className="icon-wrapper"><GraduationCap size={32} /></div>
               <h3>As a Mentor</h3>
-              <p>Guide talents through their placement. Share your experience, challenge their thinking, and help them grow into professionals who perform — not just professionals who attended school.</p>
+              <p>Guide talents through their placement. Share your experience, challenge their thinking, and help them grow into professionals who perform, not just professionals who attended school.</p>
             </div>
             <div className="value-card">
               <div className="icon-wrapper"><Award size={32} /></div>
               <h3>As a Validator / Evaluator</h3>
-              <p>Review talent performance at the end of placements. Your assessment becomes part of their verified work record — the credential that gets them hired.</p>
+              <p>Review talent performance at the end of placements. Your assessment becomes part of their verified work record, the credential that gets them hired.</p>
             </div>
             <div className="value-card">
               <div className="icon-wrapper"><Network size={32} /></div>
