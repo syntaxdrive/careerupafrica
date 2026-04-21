@@ -30,11 +30,18 @@ export default function HRPage() {
       {/* Intro Section */}
       <div className="reveal-up">
         <section className="hr-intro">
-          <div className="container text-center">
-            <h2 className="section-title">The hiring pipeline is broken. You can help rebuild it.</h2>
-            <p className="intro-text">
-              Every year, thousands of skilled graduates across Africa are turned away from opportunities they are qualified for simply because they lack formal work experience. As HR professionals and industry leaders, you sit at the exact point where this problem is most visible and most fixable. CareerUp Africa is creating a structured pathway from learning to employment, and we're inviting experienced professionals to be part of the solution.
-            </p>
+          <div className="container">
+            <div className="side-by-side">
+              <div className="side-content">
+                <h2 className="section-title">The hiring pipeline is broken. You can help rebuild it.</h2>
+                <p className="intro-text">
+                  Every year, thousands of skilled graduates across Africa are turned away from opportunities they are qualified for simply because they lack formal work experience. As HR professionals and industry leaders, you sit at the exact point where this problem is most visible and most fixable. CareerUp Africa is creating a structured pathway from learning to employment, and we're inviting experienced professionals to be part of the solution.
+                </p>
+              </div>
+              <div className="side-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="HR professionals in discussion" className="rounded-image shadow-md" />
+              </div>
+            </div>
           </div>
         </section>
       </div>

@@ -2,6 +2,19 @@
   padding: 5rem 2rem;
   background-color: #f8fafc;
   text-align: center;
+  position: relative;
+}
+
+.problem-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.05;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .problem-section .section-title {

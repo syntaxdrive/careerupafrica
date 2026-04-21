@@ -71,7 +71,7 @@ export default function HowItWorks() {
         </div>
         
         <div className="carousel-wrapper" style={{ margin: '0 auto', maxWidth: '1200px', padding: isMobile ? '0 0.25rem' : '0 clamp(1rem, 5vw, 4rem)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <button className="carousel-arrow left" onClick={prevSlide} aria-label="Previous" style={{ background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginRight: '2rem', color: 'var(--color-navy)' }}>
+          <button className="carousel-arrow left" onClick={prevSlide} aria-label="Previous" style={{ display: isMobile ? 'none' : 'flex', background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginRight: '2rem', color: 'var(--color-navy)' }}>
             <ChevronLeft size={24} />
           </button>
 
@@ -107,7 +107,7 @@ export default function HowItWorks() {
                       height: '100%',
                       background: 'white',
                       borderRadius: '24px',
-                      padding: isMobile ? '2rem 1.25rem' : '3rem 2rem',
+                      padding: isMobile ? '2rem 1.5rem' : '3rem 2rem',
                       boxShadow: isActive ? '0 20px 40px -15px rgba(30, 58, 138, 0.2)' : '0 10px 40px -10px rgba(15, 23, 42, 0.1)',
                       border: isActive ? '2px solid var(--color-teal)' : '1px solid var(--color-border)',
                       textAlign: 'center',
@@ -137,7 +137,7 @@ export default function HowItWorks() {
             })}
           </div>
 
-          <button className="carousel-arrow right" onClick={nextSlide} aria-label="Next" style={{ background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginLeft: '2rem', color: 'var(--color-navy)' }}>
+          <button className="carousel-arrow right" onClick={nextSlide} aria-label="Next" style={{ display: isMobile ? 'none' : 'flex', background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginLeft: '2rem', color: 'var(--color-navy)' }}>
             <ChevronRight size={24} />
           </button>
         </div>

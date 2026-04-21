@@ -56,8 +56,13 @@ export default function WhatWeDo() {
           task execution and structured evaluation.
         </p>
 
-        <div className="carousel-wrapper" style={{ margin: '0 auto', maxWidth: '1200px', padding: isMobile ? '0 0.25rem' : '0 clamp(1rem, 5vw, 4rem)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <button className="carousel-arrow left" onClick={prevSlide} aria-label="Previous" style={{ background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginRight: '2rem', color: 'var(--color-navy)' }}>
+        <div className="what-we-do-content" style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', gap: '3rem', alignItems: 'center', maxWidth: '1200px', margin: '0 auto', paddingBottom: '3rem' }}>
+          <div className="what-we-do-image" style={{ flex: 1, width: '100%', borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)' }}>
+            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tech professionals collaborating" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+          </div>
+          
+          <div className="carousel-wrapper" style={{ flex: 1, margin: '0 auto', width: '100%', maxWidth: '1200px', padding: isMobile ? '0 0.25rem' : '0 clamp(1rem, 5vw, 4rem)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <button className="carousel-arrow left" onClick={prevSlide} aria-label="Previous" style={{ display: isMobile ? 'none' : 'flex', background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginRight: '2rem', color: 'var(--color-navy)' }}>
             <ChevronLeft size={24} />
           </button>
 
@@ -92,7 +97,7 @@ export default function WhatWeDo() {
                       height: '100%',
                       background: 'white',
                       borderRadius: '24px',
-                      padding: isMobile ? '2rem 1.25rem' : '3rem 2rem',
+                      padding: isMobile ? '2rem 1.5rem' : '3rem 2rem',
                       boxShadow: isActive ? '0 20px 40px -15px rgba(30, 58, 138, 0.2)' : '0 10px 40px -10px rgba(15, 23, 42, 0.1)',
                       border: isActive ? '2px solid var(--color-teal)' : '1px solid var(--color-border)',
                       textAlign: 'center',
@@ -119,7 +124,7 @@ export default function WhatWeDo() {
             })}
           </div>
 
-          <button className="carousel-arrow right" onClick={nextSlide} aria-label="Next" style={{ background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginLeft: '2rem', color: 'var(--color-navy)' }}>
+          <button className="carousel-arrow right" onClick={nextSlide} aria-label="Next" style={{ display: isMobile ? 'none' : 'flex', background: 'white', border: '1px solid var(--color-border)', borderRadius: '50%', width: '48px', height: '48px', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', zIndex: 100, marginLeft: '2rem', color: 'var(--color-navy)' }}>
             <ChevronRight size={24} />
           </button>
         </div>
@@ -138,6 +143,7 @@ export default function WhatWeDo() {
               aria-label={`Go to slide ${i + 1}`}
             />
           ))}
+        </div>
         </div>
       </div>
     </section>

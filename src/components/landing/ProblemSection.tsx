@@ -2,8 +2,9 @@ import './ProblemSection.css'
 
 export default function ProblemSection() {
   return (
-    <section className="problem-section">
-      <div className="container">
+    <section className="problem-section" style={{ position: 'relative', overflow: 'hidden' }}>
+      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Students in Africa" className="problem-bg-img" />
+      <div className="container" style={{ position: 'relative', zIndex: 2 }}>
         <h2 className="section-title">The Problem We're Solving</h2>
         <p className="section-subtitle">
           Millions of skilled Africans are stuck in a loop: no experience means no job, and no job means no experience.

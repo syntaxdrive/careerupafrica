@@ -2,7 +2,6 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "careerupafricang-site",
   "compatibility_date": "2026-04-20",
-  "main": "./dist/index.html",
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"

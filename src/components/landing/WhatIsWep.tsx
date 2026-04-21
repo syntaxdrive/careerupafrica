@@ -4,12 +4,17 @@ export default function WhatIsWep() {
   return (
     <section className="what-is-wep-section">
       <div className="container">
-        <div className="wep-content">
-          <h2 className="section-title">What is a Work Experience Placement?</h2>
-          <p className="wep-text">
-            A WEP is a short-term, structured placement (4–6 weeks) where you contribute to real business tasks inside a startup. It is not shadowing. It is not fetching tea. It is real work, real feedback, and a verified record of your performance. No prior experience required just proof of skill.
-          </p>
-          <a href="https://forms.gle/Y9YCECFJPtAnuGdF7" target="_blank" rel="noopener noreferrer" className="btn-pop btn-pop-primary wep-btn">Apply Now</a>
+        <div className="wep-content-wrapper">
+          <div className="wep-image-container">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professionals working together" className="wep-image" />
+          </div>
+          <div className="wep-content">
+            <h2 className="section-title">What is a Work Experience Placement?</h2>
+            <p className="wep-text">
+              A WEP is a short-term, structured placement (4–6 weeks) where you contribute to real business tasks inside a startup. It is not shadowing. It is not fetching tea. It is real work, real feedback, and a verified record of your performance. No prior experience required just proof of skill.
+            </p>
+            <a href="https://forms.gle/Y9YCECFJPtAnuGdF7" target="_blank" rel="noopener noreferrer" className="btn-pop btn-pop-primary wep-btn">Apply Now</a>
+          </div>
         </div>
       </div>
     </section>

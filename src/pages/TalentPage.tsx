@@ -28,6 +28,25 @@ export default function TalentPage() {
 
       {/* Value Section */}
       <div className="reveal-up">
+        <section className="companies-intro">
+          <div className="container">
+            <div className="side-by-side reverse">
+              <div className="side-content">
+                <h2 className="section-title">Proof over potential.</h2>
+                <p className="intro-text" style={{ textAlign: 'left' }}>
+                  A degree or certificate shows you learned something, but companies hire people who can apply what they’ve learned.
+                  CareerUp Africa bridges this gap through short, structured Work Experience Placements where you prove your competence to the people who matter most: founders and hiring managers.
+                </p>
+              </div>
+              <div className="side-image">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Students gaining skills" className="rounded-image shadow-md" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className="reveal-up">
         <section className="companies-value" style={{ padding: '6rem 0', background: 'var(--color-bg-secondary)' }}>
           <div className="container">
             <h2 className="section-title text-center">Why Join CareerUp Africa?</h2>

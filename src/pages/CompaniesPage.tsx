@@ -30,11 +30,18 @@ export default function CompaniesPage() {
       {/* Intro Section */}
       <div className="reveal-up">
         <section className="companies-intro">
-          <div className="container text-center">
-            <h2 className="section-title">The talent you need already exists. They just haven't had their first shot.</h2>
-            <p className="intro-text">
-              Across Africa, thousands of skilled young professionals are trained, motivated, and ready to work but locked out of the job market because no one will give them their first opportunity. CareerUp Africa changes that. We identify, vet, and match these talents directly to your business needs through structured Work Experience Placements.
-            </p>
+          <div className="container">
+            <div className="side-by-side">
+              <div className="side-content">
+                <h2 className="section-title">The talent you need already exists. They just haven't had their first shot.</h2>
+                <p className="intro-text">
+                  Across Africa, thousands of skilled young professionals are trained, motivated, and ready to work but locked out of the job market because no one will give them their first opportunity. CareerUp Africa changes that. We identify, vet, and match these talents directly to your business needs through structured Work Experience Placements.
+                </p>
+              </div>
+              <div className="side-image">
+                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Talented professionals" className="rounded-image shadow-md" />
+              </div>
+            </div>
           </div>
         </section>
       </div>
