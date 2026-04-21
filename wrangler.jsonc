@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "careerupafricang",
+  "name": "careerupafricang-site",
   "compatibility_date": "2026-04-20",
   "main": "./dist/index.html",
   "assets": {
